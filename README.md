@@ -1,7 +1,25 @@
 # Windows System File Checker Verifier
-Script that automates the SFC /scannow command, and DISM repair.
-Why did I make this? I can never remember the full DISM command, and this saves me from typing out two full commands into 2 key presses.
 
-How to use:
-1. Download run the .bat as an administrator on a Windows Machine.
-2. Follow the prompts
+This is a script that automates the **SFC**, and **DISM repair** commands that are built into windows.  
+Those commands essentially scans through and repairs windows system files.  
+
+## How to use
+1. Download zip from above. 
+
+![guide](https://user-images.githubusercontent.com/37534421/223638223-9889b1d3-1417-43d6-aeec-a1603fa55699.png)
+
+
+2. Extract the **"Windows Integrity Verifier.bat"** file from the zip.
+3. Right click on the **"Windows Integrity Verifier.bat"** file, and run the as an administrator.
+4. Follow the prompts.
+
+## FAQ
+
+Q: How do I extract files from zip?  
+A: In Windows, you can right click on a zip and click **"Extract all"**  
+
+Q: Does it need to be in administrator mode?  
+A: Yes, as window's SFC (System File Checker) tool requires administrator permissions. More info here: [https://support.microsoft.com/en-us/topic/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system-files](https://support.microsoft.com/en-us/topic/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system-files-79aa86cb-ca52-166a-92a3-966e85d4094e)  
+
+Q: Why did I make this?  
+A: I can never remember the full DISM command, and this saves me from typing out two full commands. Now I only need to do it within 2 key presses!  
