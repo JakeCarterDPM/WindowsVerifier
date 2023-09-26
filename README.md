@@ -4,14 +4,9 @@ This is a script that automates the **SFC**, and **DISM repair** commands that a
 Those commands essentially scans through and repairs windows system files.  
 
 ## How to use
-1. Download zip from above. 
-
-![guide](https://user-images.githubusercontent.com/37534421/223638223-9889b1d3-1417-43d6-aeec-a1603fa55699.png)
-
-
-2. Extract the **"Windows Integrity Verifier.bat"** file from the zip.
-3. Right click on the **"Windows Integrity Verifier.bat"** file, and run the as an administrator.
-4. Follow the prompts.
+1. Download the "Windows Integrity Verifier.bat" file from [the releases page](https://github.com/JakeCarterDPM/WindowsVerifier/releases).
+2. Right click on the **"Windows Integrity Verifier.bat"** file, and run the file as an administrator.
+3. Follow the prompts.
 
 ## FAQ
 
